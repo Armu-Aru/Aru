@@ -5,21 +5,27 @@ permalink: /gallery/
 ---
 
 # Welcome to My Gallery
-Three favorite folders, shown with one image from each.
+
 
 <div class="gallery-container">
   <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/fun/9c5a489f-361e-4701-8116-e9e00af5e4ec.jpg" alt="Fun Time">
+    <a href="{{ site.baseurl }}/gallery/fun/">
+      <img src="{{ site.baseurl }}/assets/fun/9c5a489f-361e-4701-8116-e9e00af5e4ec.jpg" alt="Fun Time">
+    </a>
     <p class="caption">Fun Time</p>
   </div>
 
   <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/creature/86017d8c-ce73-40e4-b3b1-25fd275b9279.jpg" alt="Cool Creatures">
+    <a href="{{ site.baseurl }}/gallery/creature/">
+      <img src="{{ site.baseurl }}/assets/creature/86017d8c-ce73-40e4-b3b1-25fd275b9279.jpg" alt="Cool Creatures">
+    </a>
     <p class="caption">Cool Creatures</p>
   </div>
 
   <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/mountain/WhatsApp%20Image%202026-05-09%20at%2010.20.22%20AM.jpeg" alt="Mountain">
+    <a href="{{ site.baseurl }}/gallery/mountain/">
+      <img src="{{ site.baseurl }}/assets/mountain/WhatsApp%20Image%202026-05-09%20at%2010.20.22%20AM.jpeg" alt="Mountain">
+    </a>
     <p class="caption">Mountain</p>
   </div>
 </div>
@@ -35,6 +41,10 @@ Three favorite folders, shown with one image from each.
 
 .gallery-item {
   text-align: center;
+}
+
+.gallery-item a {
+  display: inline-block;
 }
 
 .gallery-item img {

@@ -1,0 +1,33 @@
+---
+layout: default
+title: Cool Creatures Gallery
+permalink: /gallery/creature/
+---
+
+# Cool Creatures
+
+<div class="folder-gallery">
+  <img src="{{ site.baseurl }}/assets/creature/86017d8c-ce73-40e4-b3b1-25fd275b9279.jpg" alt="Cool Creatures 1">
+  <img src="{{ site.baseurl }}/assets/creature/WhatsApp%20Image%202026-05-09%20at%2010.20.14%20AM.jpeg" alt="Cool Creatures 2">
+  <img src="{{ site.baseurl }}/assets/creature/WhatsApp%20Image%202026-05-09%20at%2010.20.15%20AM.jpeg" alt="Cool Creatures 3">
+  <img src="{{ site.baseurl }}/assets/creature/WhatsApp%20Image%202026-05-09%20at%2010.20.24%20AM.jpeg" alt="Cool Creatures 4">
+  <img src="{{ site.baseurl }}/assets/creature/WhatsApp%20Image%202026-05-09%20at%2010.20.25%20AM.jpeg" alt="Cool Creatures 5">
+  <img src="{{ site.baseurl }}/assets/creature/wmremove-transformed.jpeg" alt="Cool Creatures 6">
+</div>
+
+<style>
+.folder-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.folder-gallery img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+</style>
