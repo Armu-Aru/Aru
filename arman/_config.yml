@@ -26,7 +26,6 @@ header_pages:
   - about.html
   - gallery.md
   - portfolio.md
-  - miscellaneous.md
   - contact.md
 
 defaults:
