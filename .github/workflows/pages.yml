@@ -27,8 +27,12 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
+        env:
+          BUNDLE_GEMFILE: arman/Gemfile
 
       - name: Build site
+        env:
+          BUNDLE_GEMFILE: arman/Gemfile
         run: bundle exec jekyll build --source arman --destination arman/_site
 
       - name: Upload artifact
