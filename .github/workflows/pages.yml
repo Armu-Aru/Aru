@@ -28,9 +28,6 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
       - name: Build site
         run: bundle exec jekyll build --source arman --destination arman/_site
 
