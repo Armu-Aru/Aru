@@ -1,0 +1,49 @@
+title: Aru's Page
+email: armansingh.jaryal@niser.ac.in
+author: arman-jaryal
+
+copyright: "Copyright (c) 2017-{currentYear} <a href='https://example.com'>{author}</a>"
+
+description: >-
+  Arman Singh Jaryal's homepage.
+
+baseurl: ""
+url: "https://arman-jaryal.github.io"
+favicon: "/assets/post/flavicon.jpeg"
+
+yat:
+  date_format: "%b %d, %Y"
+
+orangered: #ff5100
+greatgold: #f2cb05
+greenblue: #389092
+sriniblue: #348feb
+
+brand_color: sriniblue
+
+header_pages:
+  - index.html
+  - about.html
+  - gallery.md
+  - portfolio.md
+  - miscellaneous.md
+  - contact.md
+
+defaults:
+  home:
+    heading: ""
+    subheading: ""
+    banner: "/assets/post/homepage.jpg"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+theme: jekyll-theme-yat
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
