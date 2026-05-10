@@ -5,35 +5,22 @@ permalink: /gallery/
 ---
 
 # Welcome to My Gallery
-I have curated some of my favorite research and field moments.
+Three favorite folders, shown with one image from each.
 
 <div class="gallery-container">
   <div class="gallery-item">
-    <a href="{{ site.baseurl }}/gallery/art/">
-      <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=800" alt="Research">
-      <p class="caption">Research</p>
-    </a>
+    <img src="{{ site.baseurl }}/assets/fun/9c5a489f-361e-4701-8116-e9e00af5e4ec.jpg" alt="Fun Time">
+    <p class="caption">Fun Time</p>
   </div>
 
   <div class="gallery-item">
-    <a href="{{ site.baseurl }}/gallery/photography/">
-      <img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=800" alt="Field Photography">
-      <p class="caption">Field Photography</p>
-    </a>
+    <img src="{{ site.baseurl }}/assets/creature/86017d8c-ce73-40e4-b3b1-25fd275b9279.jpg" alt="Cool Creatures">
+    <p class="caption">Cool Creatures</p>
   </div>
 
   <div class="gallery-item">
-    <a href="{{ site.baseurl }}/gallery/art/">
-      <img src="https://images.unsplash.com/photo-1549887534-f2bf6a0df59e?w=800" alt="Nature">
-      <p class="caption">Nature Studies</p>
-    </a>
-  </div>
-
-  <div class="gallery-item">
-    <a href="{{ site.baseurl }}/gallery/photography/">
-      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Biodiversity">
-      <p class="caption">Biodiversity</p>
-    </a>
+    <img src="{{ site.baseurl }}/assets/mountain/WhatsApp%20Image%202026-05-09%20at%2010.20.22%20AM.jpeg" alt="Mountain">
+    <p class="caption">Mountain</p>
   </div>
 </div>
 
@@ -43,6 +30,7 @@ I have curated some of my favorite research and field moments.
   justify-content: center;
   gap: 2rem;
   padding: 2rem 0;
+  flex-wrap: wrap;
 }
 
 .gallery-item {
@@ -50,11 +38,12 @@ I have curated some of my favorite research and field moments.
 }
 
 .gallery-item img {
-  width: auto;
-  height: 500px;
+  width: 280px;
+  height: 280px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  object-fit: cover;
 }
 
 .gallery-item img:hover {
