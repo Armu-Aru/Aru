@@ -9,16 +9,30 @@ I have curated some of my favorite research and field moments.
 
 <div class="gallery-container">
   <div class="gallery-item">
-    <a href="/gallery/art/">
+    <a href="{{ site.baseurl }}/gallery/art/">
       <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=800" alt="Research">
       <p class="caption">Research</p>
     </a>
   </div>
 
   <div class="gallery-item">
-    <a href="/gallery/photography/">
+    <a href="{{ site.baseurl }}/gallery/photography/">
       <img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=800" alt="Field Photography">
       <p class="caption">Field Photography</p>
+    </a>
+  </div>
+
+  <div class="gallery-item">
+    <a href="{{ site.baseurl }}/gallery/art/">
+      <img src="https://images.unsplash.com/photo-1549887534-f2bf6a0df59e?w=800" alt="Nature">
+      <p class="caption">Nature Studies</p>
+    </a>
+  </div>
+
+  <div class="gallery-item">
+    <a href="{{ site.baseurl }}/gallery/photography/">
+      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Biodiversity">
+      <p class="caption">Biodiversity</p>
     </a>
   </div>
 </div>
