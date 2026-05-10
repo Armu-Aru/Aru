@@ -7,7 +7,7 @@ description: >-
 
 baseurl: "/Aru"
 url: "https://armu-aru.github.io"
-favicon: "/assets/post/flavicon.jpeg"
+favicon: "/Aru/assets/post/flavicon.jpeg"
 
 yat:
   date_format: "%b %d, %Y"
