@@ -7,19 +7,24 @@ banner: "/assets/post/homepage.jpg"
 
 <style>
   .page-banner-img {
-    height: 700px;
+    height: 100vh;
+    min-height: 700px;
     overflow: hidden;
   }
 
   .page-banner-img div {
-    background-position: center bottom !important;
+    width: 100%;
+    height: 100%;
+    background-position: center center !important;
     background-repeat: no-repeat !important;
-    background-size: contain !important;
+    background-size: cover !important;
   }
 
   .page-banner-img img {
-    object-fit: contain !important;
-    object-position: center bottom;
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+    object-position: center center;
   }
 
   .dream-heading {
