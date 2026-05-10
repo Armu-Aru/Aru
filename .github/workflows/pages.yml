@@ -32,12 +32,12 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --source arman --destination arman/_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: ./arman/_site
 
   deploy:
     needs: build
