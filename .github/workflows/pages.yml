@@ -26,14 +26,14 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: true
-        env:
-          BUNDLE_GEMFILE: arman/Gemfile
+
+      - name: Install gems
+        working-directory: arman
+        run: bundle install
 
       - name: Build site
-        env:
-          BUNDLE_GEMFILE: arman/Gemfile
-        run: bundle exec jekyll build --source arman --destination arman/_site
+        working-directory: arman
+        run: bundle exec jekyll build --source . --destination _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
