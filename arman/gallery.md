@@ -28,6 +28,26 @@ permalink: /gallery/
     </a>
     <p class="caption">Mountain</p>
   </div>
+  <div class="gallery-item">
+    <a href="{{ site.baseurl }}/gallery/flower/">
+      <img src="{{ site.baseurl }}/assets/flower/IMG-20250406-WA0012.jpg" alt="Flower">
+    </a>
+    <p class="caption">Flower</p>
+  </div>
+
+  <div class="gallery-item">
+    <a href="{{ site.baseurl }}/gallery/me/">
+      <img src="{{ site.baseurl }}/assets/me/IMG-20240703-WA0010.jpg" alt="Me">
+    </a>
+    <p class="caption">Me</p>
+  </div>
+
+  <div class="gallery-item">
+    <a href="{{ site.baseurl }}/gallery/Scenary/">
+      <img src="{{ site.baseurl }}/assets/Scenary/1000071962.jpg" alt="Scenary">
+    </a>
+    <p class="caption">Scenary</p>
+  </div>
 </div>
 
 <style>

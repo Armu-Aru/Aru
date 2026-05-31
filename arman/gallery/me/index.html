@@ -1,0 +1,37 @@
+---
+layout: default
+title: Me Gallery
+permalink: /gallery/me/
+---
+
+# Me
+
+<div class="folder-gallery">
+  <img src="{{ site.baseurl }}/assets/me/IMG-20240703-WA0010.jpg" alt="Me 1">
+  <img src="{{ site.baseurl }}/assets/me/IMG-20240703-WA0012.jpg" alt="Me 2">
+  <img src="{{ site.baseurl }}/assets/me/IMG-20240703-WA0016.jpg" alt="Me 3">
+  <img src="{{ site.baseurl }}/assets/me/IMG-20240711-WA0008.jpg" alt="Me 4">
+  <img src="{{ site.baseurl }}/assets/me/IMG-20241008-WA0033.jpg" alt="Me 5">
+  <img src="{{ site.baseurl }}/assets/me/IMG_20221114_194905.jpg" alt="Me 6">
+  <img src="{{ site.baseurl }}/assets/me/IMG_20230513_213906.jpg" alt="Me 7">
+  <img src="{{ site.baseurl }}/assets/me/IMG_20240518_180750_736.jpg" alt="Me 8">
+  <img src="{{ site.baseurl }}/assets/me/IMG_20241031_222743.jpg" alt="Me 9">
+  <img src="{{ site.baseurl }}/assets/me/IMG_6366.JPG" alt="Me 10">
+</div>
+
+<style>
+.folder-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.folder-gallery img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+</style>
