@@ -12,13 +12,17 @@ Integrated MSc student at NISER, Bhubaneswar working on bioacoustics and machine
 ## Publications
 * Under preparation.
 
-## Current Projects
-* MSc thesis: Understanding species richness of Ensiferan communities via temporal-spectral feature extraction, passive acoustic monitoring, and machine learning algorithms.
+## Current Research
+* MSc thesis: Investigating the effectiveness of novel machine learning algorithms in passive acoustic monitoring (PAM) and species diversity estimation in Ensiferan communities.
+	* Report: [MSc_Thesis_sem8.pdf]({{ site.baseurl }}/reports/MSc_Thesis_sem8.pdf)
 
 ## Past Internships
-* Summer Project 2025: Testing algorithms for acoustic species identification (IISc Bangalore).
+* Summer Project 2025: Testing algorithms for acoustic species identification and using manual sonotype annotations for species identification (IISc Bangalore).
+	* Report: [2025_project.pdf]({{ site.baseurl }}/reports/2025_project.pdf)
 * Summer Project 2024: Synthesis and characterization of ultralong hydroxyapatite nanowire for enhanced osteochondral regeneration (IIT Mandi).
+	* Report: [Synthesis and Characterization of Ultralong.pdf]({{ site.baseurl }}/reports/Synthesis%20and%20Characterization%20of%20Ultralong.pdf)
 * Summer Project 2023: Design of 3D printed orthopedic scaffolds (IIT Mandi).
+	* Report: [Design of 3D printed Scaffolds summer internship.pdf]({{ site.baseurl }}/reports/Design%20of%203D%20printed%20Scaffolds%20summer%20internship.pdf)
 
 ## Awards and Achievements
 ### Fellowships and Scholarships
