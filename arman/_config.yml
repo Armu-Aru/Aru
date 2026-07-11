@@ -12,12 +12,14 @@ favicon: "/Aru/flavicon.png"
 yat:
   date_format: "%b %d, %Y"
 
+night_mode: "on"
+
 orangered: #ff5100
 greatgold: #f2cb05
 greenblue: #389092
 sriniblue: #348feb
 
-brand_color: sriniblue
+brand_color: "#6495ed"
 
 header_pages:
   - index.html
