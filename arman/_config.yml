@@ -2,6 +2,7 @@ title: Aru's Page
 email: armansingh.jaryal@niser.ac.in
 author: arman-jaryal
 
+lang: de
 description: >-
   Arman Singh Jaryal's homepage.
 
@@ -9,6 +10,7 @@ baseurl: "/Aru"
 url: "https://armu-aru.github.io"
 favicon: "/Aru/flavicon.png"
 
+locale: de_DE
 yat:
   date_format: "%b %d, %Y"
 
